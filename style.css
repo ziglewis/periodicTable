@@ -1,9 +1,37 @@
 *{
     box-sizing: border-box;
     margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 th, td {
 
     border: 2px solid black;
+  
+    text-align: center;
+    max-width: 120px; 
+    padding: 3px;
+}
+
+td:hover{
+    width: 100px;
+    font-size: larger;
+    border: 2px solid blue;
+    background-color: aquamarine;
+}
+
+
+table {
+    min-width: 700px;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-content, .element-name {
+    font-size:6px;
+
 }
