@@ -1,37 +1,65 @@
 *{
     box-sizing: border-box;
     margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: Verdana, Tahoma,  arial, sans-serif;
+    border-collapse: collapse;
+   
 }
+
 
 th, td {
 
     border: 2px solid black;
-  
+    width:calc(100% / 19);
     text-align: center;
-    max-width: 120px; 
     padding: 3px;
+    /* font-size: 16px; */
+    font-size: x-small;
 }
 
 td:hover{
-    width: 100px;
-    font-size: larger;
+    width: 80px;
+    font-size:medium;
     border: 2px solid blue;
-    background-color: aquamarine;
+    background-color: rgb(127, 255, 212);
+    color: blue;
+    border: 5px solid red;
+    position: absolute;
+    margin-left: -19px;
+    margin-top: -1.4%;
+    z-index: 2;
 }
 
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    border: 4px solid violet;
+    width: fit-content;
+    min-width: 850x;
+    
+}
 
 table {
-    min-width: 700px;
+    min-width: 850px;
+    table-layout: fixed ;
+    overflow-x: scroll;
+    border: 4px solid yellowgreen;
+    
+    
 }
 
 .top-content {
     display: flex;
     justify-content: space-between;
+    gap: 10%;
 }
 
-.top-content, .element-name {
+ /*  .top-content, .element-name {
     font-size:6px;
 
-}
+} */
+
+ /*   .top-content:hover, .element-name:hover {
+
+    font-size:px;
+} */
