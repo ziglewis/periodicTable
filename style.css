@@ -6,6 +6,16 @@
    
 }
 
+body {
+    background-color:  rgb(178, 231, 213) ;
+}
+
+.empty {
+    visibility: hidden;
+    height: 40px;
+    border: none;
+}
+
 
 th, td {
 
@@ -20,10 +30,10 @@ th, td {
 td:hover{
     width: 80px;
     font-size:medium;
-    border: 2px solid blue;
-    background-color: rgb(127, 255, 212);
-    color: blue;
-    border: 5px solid red;
+    /* border: 2px solid blue; */
+    background-color: rgb(159, 231, 207);
+    /* color: blue; */
+    border: 3px solid black;
     position: absolute;
     margin-left: -19px;
     margin-top: -1.4%;
@@ -33,7 +43,8 @@ td:hover{
 .container {
     margin-top: 50px;
     padding: 20px;
-    border: 4px solid violet;
+    border: 4px solid black;
+    background-color: whitesmoke;
     width: fit-content;
     min-width: 850x;
     
@@ -43,7 +54,7 @@ table {
     min-width: 850px;
     table-layout: fixed ;
     overflow-x: scroll;
-    border: 4px solid yellowgreen;
+    border: 4px solid black;
     
     
 }
