@@ -12,7 +12,7 @@ th, td {
     border: 2px solid black;
     width:calc(100% / 19);
     text-align: center;
-    padding: 3px;
+    padding: 3px 1px;
     /* font-size: 16px; */
     font-size: x-small;
 }
