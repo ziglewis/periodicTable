@@ -3,7 +3,8 @@
     margin: auto;
     font-family: Verdana, Tahoma,  arial, sans-serif;
     border-collapse: collapse;
-   
+
+      
 }
 
 body {
@@ -47,8 +48,8 @@ td:hover{
     background-color: whitesmoke;
     width: fit-content;
     min-width: 850x;
-    
-}
+    }
+
 
 table {
     min-width: 850px;
@@ -64,6 +65,7 @@ table {
     justify-content: space-between;
     gap: 10%;
 }
+
 
  /*  .top-content, .element-name {
     font-size:6px;
